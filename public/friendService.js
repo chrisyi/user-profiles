@@ -3,11 +3,11 @@ angular.module('userProfiles')
   
     
     this.login = function( user ) {
-      /* FIX ME */
+        return $http.get('localhost:3000/api/login'), user
     };
 
     this.getFriends = function() {
-    	/* FIX ME */
+
     };
   
 });
